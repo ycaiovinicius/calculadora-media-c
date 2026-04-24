@@ -23,6 +23,8 @@ float media;
 
         if (media >= 7) {
             printf("Parabéns, você passou\n");
+        } else {
+            printf("Infelizmente, você não passou");
         }
 
     return 0;
