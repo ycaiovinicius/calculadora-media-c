@@ -19,7 +19,11 @@ float media;
             media = (float) (nota1 + nota2 + nota3) / 3;
 
     //Exibindo Resultado da média
-    printf("Sua média é: %.1f", media);
+    printf("Sua média é: %.1f\n", media);
+
+        if (media >= 7) {
+            printf("Parabéns, você passou\n");
+        }
 
     return 0;
 }
